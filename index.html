@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Class Login - Lovely Professional University</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:300px)" href="phone.css">
+    <style>
+        body {
+            background-image: url(myclass_background.jpeg);
+            background-size: contain;
+            background-repeat: round;
+        }
+
+        .container {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin: 0px 0px 0px 0px;
+            height: 100vh;
+            width: 100vw;
+            font-family: Montserrat, sans-serif;
+        }
+
+        .creden {
+            font-family: Montserrat, sans-serif;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: 560px;
+            width: 320px;
+            padding-left: 25px;
+            padding-right: 25px;
+            box-shadow : 0 15px 50px 10px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(#dba68c, #d6a3c0);
+        }
+
+        .creden img {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .logo {
+            width: 310px;
+            height: 100px;
+        }
+
+        .last {
+            display: block;
+        }
+
+        .last img {
+            display: block;
+            width: 40%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        section {
+            align-items: center;
+        }
+
+        #welcome {
+            font-size: 40px;
+            color: #FFFFFF;
+        }
+
+        #subtitle {
+            font-size: 12px;
+            color: #FFFFFF;
+            margin-top: 12px 0px 0px;
+        }
+
+        .i1 {
+            border: none;
+        }
+
+        .i1 {
+            background: none;
+            margin: 0px 0px 10px;
+            line-height: 2.4em;
+            color: #FFFFFF;
+            font-weight: 500;
+            letter-spacing: 0.02rem;
+            font-size: 1.2rem;
+            width: 100%;
+            border-bottom: 0.075em solid rgba(255, 255, 255, 0.9);
+            transition: all .7s ease;
+            padding: 1px 2px;
+            font-family: Montserrat, sans-serif;
+
+        }
+
+        .btn {
+            align-items: center;
+            font-size: 22.4px;
+            color: white;
+            margin: 0px 0px 30px;
+            padding: 15px 6px;
+            margin-top: 60px;
+            border-radius: 25px;
+            font-family: Montserrat, sans-serif;
+            background-color: rgb(225, 186, 194);
+            transition: all .9s ease;
+            border-width: 1px;
+            border-color: #FFFFFF;
+        }
+
+        .btn:hover {
+            border-color: orangered;
+            cursor: pointer;
+        }
+
+        .input {
+            margin-top: 62px;
+            color: white;
+
+        }
+        .input input{
+            outline: none;
+        }
+
+        ::placeholder {
+            color  :white;
+            opacity: 1;
+        }
+        #subtitle{
+            margin-top: 10px;
+        }
+        .last{
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="fomm">
+            <form action="" class="creden">
+                <img src="lpu.svg" alt="" class="logo">
+                <div id="welcome">My Class</div>
+                <div id="subtitle">Use your ums credentials to login</div>
+
+                <section class="input">
+                    <input class="i1" type="text" placeholder="Username">
+                    <input class="i1" type="password" placeholder="Password">
+                </section>
+
+                <button class="btn" type="submit"> Login</button>
+
+                <div class="last">
+                    now powered by
+                    <img src="codetantra.png" alt="">
+                </div>
+    </div>
+    </form>
+    </div>
+    </div>
+</body>
+
+</html>
